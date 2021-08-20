@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -28,7 +28,7 @@ figure h2 {
 }
 
 h2 {
-  font-size:1.5rem;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -63,8 +63,9 @@ figure {
 .text {
   color: white;
   align-self: end;
+}
 
-.text h2
+.text h2 {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
