@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+figure h2 {
+  font-weight: normal;
+  font-style: italic;
+}
+
+h2 {
+  font-size:1.75rem;
+}
+
+[role="banner"] {
+  text-align: left;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+}
+
+[role="main"] {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: .75rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "banner banner banner"
+    "image2 image2 image3";
+}
+
+.banner, .text {
+  grid-area: banner;
+}
+
+figure {
+  margin: 0;
+}
+
+.text {
+  color: white;
+  align-self: end;
+
+.text h2 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
